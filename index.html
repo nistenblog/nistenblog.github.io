@@ -35,6 +35,14 @@
 
 <link async="async" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+<script>
+$(document).ready(function(){
+    $("#WhatIsNP").click(function(){
+        $("#NPIs").toggle();
+    });
+});
+</script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   
@@ -176,11 +184,11 @@ qacct:"p-eSb2DDm83fdgs"
         text-align: center;
     }
 </style>
-<a href="#" class="collapsed casual" data-toggle="collapse" >
+<a href="#" class="collapsed casual" id="WhatIsNP" data-toggle="collapse" >
 <h1> What is nerdspal? </h1>
 </a>
 
-<div  class="collapse">
+<div class="collapse" id="NPIs" >
 
 
 <div class="row">
