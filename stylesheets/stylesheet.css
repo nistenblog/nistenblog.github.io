@@ -443,9 +443,6 @@ background-color: #fff;
 
 
 /*bootstrap styling*/
-.navbar-fixed-top {
-    position: inherit !important;
-}
 
 .carousel a{
 color:white;
